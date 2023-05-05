@@ -1,0 +1,404 @@
+#alert {
+  background-color: rgb(255 122 48);
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  display: none;
+  display: block;
+  font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;;
+  text-align: center;
+  padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: .875rem;
+    font-weight: 500;
+    margin-top: 0;
+    
+ }
+#alert button {
+  float: right;
+  border: none;
+  background-color: inherit;
+  color: white;
+  cursor: pointer;
+  font-size: x-small;
+    font-weight: 500;
+    padding-right: 30px;
+}
+
+nav {
+    
+    height: 60px;
+    display: flex;
+    padding: 10px;
+    border-bottom: 0 solid #e5e7eb;
+    border-width: 2px;
+    flex-direction: row;
+    width: 100%;
+    
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .clamp-button, .connect-button {
+    background-color: none;
+    border: none;
+    padding: 0;
+    color: black;
+    padding: 10px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Satoshi,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;
+  }
+  
+  .clamp-button {
+   
+    font-weight: 600;
+  background-color: white;
+  font-size: 1.1rem;
+  margin-left: 0.5px;
+  box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+  }
+  
+  .connect-button {
+    margin-left: auto;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding-right: 15px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .connect-button:hover {
+    background-color: #0b7dda;
+  }
+
+  img {
+    width: 25px;
+    
+  }
+
+  .explorecont {
+    margin: 47px;
+    margin-top: 7px;
+  }
+
+  .explore {
+      border: none;
+      border-bottom: 2px solid #000; /* Change color as desired */
+      background-color: rgb(255 255 255);
+      font-size: 13.5px; /* Change font size as desired */
+      cursor: pointer;
+      text-decoration: none;
+      padding:  0 7px 5px 7px;
+      margin: 20px;
+      margin-top: 10px;
+      color: rgb(15 23 42);
+      border-color: rgb(17 24 39);
+      border-bottom-width: 2px;
+      font-weight: 500;
+      padding-top: 0.375rem;
+      padding-bottom: 0.375rem;
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
+      font-size: .875rem;
+      line-height: 1.25rem;
+      justify-content: center;
+        align-items: center;
+        font-family: Mona Sans,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;
+        min-width: fit-content;
+    }
+
+    .buyany {
+      color: rgb(107 114 128);
+      font-weight: 500;
+      font-family:  Mona Sans,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;
+      margin: 0;
+     
+    }
+
+    .buyAnyBoxes {
+     background: rgba(255, 255, 255, .9);
+      margin: 0.05px 10px 0.5px 10px ;
+      padding: 1.5rem;
+      border: 1px solid rgb(226 232 240);
+      border-width: 1px;
+      border-radius: 0.375rem;
+      overflow-x: scroll;
+    }
+    
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 37px;
+        
+       /* max-width: fit-content;*/
+      }
+
+  
+  .WBTC-WETH {
+    border: 1px solid black;
+    width: 300px;
+    height: 214px;
+    background-image: linear-gradient(to right, #F19241 50%, rgb(231 70 148) 50%); /* Add gradient for top color */
+    background-size: 100% 7px; /* Set gradient size */
+    background-repeat: no-repeat; /* Prevent gradient from repeating */
+    position: relative;
+    flex-grow: 1;
+  }
+
+  .USDC-WETH {
+    border: 1px solid black;
+    width: 300px;
+    height: 214px;
+    background-image: linear-gradient(to right, #2775CA 50%,rgb(231 70 148) 50%);/* Add gradient for top color */
+    background-size: 100% 7px; /* Set gradient size */
+    background-repeat: no-repeat; /* Prevent gradient from repeating */
+    position: relative;
+    flex-grow: 1;
+    
+  }
+
+  .USDC-WBTC {
+    border: 1px solid black;
+    width: 300px;
+    height: 214px;
+    background-image: linear-gradient(to right, #2775CA 50%,#F19241 50% );/* Add gradient for top color */
+    background-size: 100% 7px; /* Set gradient size */
+    background-repeat: no-repeat; /* Prevent gradient from repeating */
+    position: relative;
+    flex-grow: 1;
+    
+  }
+
+  .WETH-WMATIC {
+    border: 1px solid black;
+    width: 300px;
+    height: 214px;
+    background-image: linear-gradient(to right,rgb(231 70 148) 50%, rgb(139 92 246) 50%);/* Add gradient for top color */
+    background-size: 100% 7px; /* Set gradient size */
+    background-repeat: no-repeat; /* Prevent gradient from repeating */
+    position: relative;
+    flex-grow: 1;
+  }
+
+  .USDC-WMATIC {
+    border: 1px solid black;
+    width: 300px;
+    height: 214px;
+    background-image: linear-gradient(to right, #2775CA 50%, rgb(139 92 246) 50%);/* Add gradient for top color */
+    background-size: 100% 7px; /* Set gradient size */
+    background-repeat: no-repeat; /* Prevent gradient from repeating */
+    position: relative;
+    flex-grow: 1;
+  }
+  
+  .WBTC-WETH-USDC {
+    border: 1px solid black;
+    width: 300px;
+    height: 214px;
+    background:linear-gradient(to right, #F19241 0%, #F19241 33.33%, rgb(231 70 148) 33.33%, rgb(231 70 148) 66.66%, #2775CA 66.66%, #2775CA 100%);/* Add gradient for top color */
+    background-size: 100% 7px; /* Set gradient size */
+    background-repeat: no-repeat; /* Prevent gradient from repeating */
+    position: relative;
+    flex-grow: 1;
+  }
+
+  .WBTC-WETH-WMATIC {
+    border: 1px solid black;
+    width: 300px;
+    height: 214px;
+    background:linear-gradient(to right, #F19241 0%, #F19241 33.33%, rgb(231 70 148) 33.33%, rgb(231 70 148) 66.66%, rgb(139 92 246)  66.66%, rgb(139 92 246)  100%);/* Add gradient for top color */
+    background-size: 100% 7px; /* Set gradient size */
+    background-repeat: no-repeat; /* Prevent gradient from repeating */
+    position: relative;
+    flex-grow: 1;
+  }
+  
+  .DAI-USDC-WBTC {
+    border: 1px solid black;
+    width: 300px;
+    height: 214px;
+    background:linear-gradient(to right, rgb(250 202 21) 0%, rgb(250 202 21) 33.33%, #2775CA  33.33%, #2775CA 66.66%, #F19241  66.66%,#F19241 100%);/* Add gradient for top color */
+    background-size: 100% 7px; /* Set gradient size */
+    background-repeat: no-repeat; /* Prevent gradient from repeating */
+    position: relative;
+    flex-grow: 1;
+  }
+
+  .DAI-WETH-WBTC {
+    border: 1px solid black;
+    width: 300px;
+    height: 214px;
+    background:linear-gradient(to right, rgb(250 202 21) 0%, rgb(250 202 21) 33.33%, rgb(231 70 148) 33.33%, rgb(231 70 148) 66.66%, #F19241  66.66%, #F19241 100%);/* Add gradient for top color */
+    background-size: 100% 7px; /* Set gradient size */
+    background-repeat: no-repeat; /* Prevent gradient from repeating */
+    position: relative;
+    flex-grow: 1;
+  }
+ 
+  
+
+  .head {
+    text-align: left;
+    padding-top: none;
+    padding-left: 10px;
+    font-weight: 10;
+    font-family: Mona Sans,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;
+    font-size: 1rem;
+    line-height: 1.375;
+    
+  }
+
+  .both-para {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .pleft{
+    text-align: left;
+    padding-left: 10px;
+    font-size: 13px;
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128/var(--tw-text-opacity));
+    font-weight: 500;
+    font-family: Mona Sans,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;
+  }
+
+  .arrow {
+    color: black;
+  }
+  #percentage {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-weight: 500;
+    gap: 0.25rem;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    text-align: right;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  }
+  
+  .arper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .arpe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .bear {
+    font-size: 25px;
+    font-weight: 10;
+    color: red;
+  }
+
+  .arrow {
+    font-size: 25px;
+    font-weight: 10;
+    color: green;
+    
+  }
+
+  .pRight{
+    text-align: right;
+    padding-right:10px;
+    
+  }
+
+    #pr p {
+    margin: 0;
+    padding: 0;
+    }
+
+    #under p {
+    margin: 0;
+    padding: 0;
+    }
+
+
+
+    
+  .buy {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: #000;
+    font-size:1rem;
+    border: none;
+    cursor: pointer;
+    font-family:Satoshi,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 0.7rem 1rem;
+  }
+
+  .under {
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128/var(--tw-text-opacity));
+  }
+
+  .pr, .in {
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128/var(--tw-text-opacity));
+    font-weight: 500;
+    font-family: Mona Sans,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;
+    font-size: 13px;
+  }
+
+  #scroll-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color:rgb(249 115 22);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  #scroll-to-top-btn:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+
+  @media (max-width: 768px) {
+    .container {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+  }
+  @media (max-width: 480px) {
+    .container {
+      grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+      grid-gap: 10px;
+    }
+  }
