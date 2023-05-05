@@ -395,6 +395,18 @@ nav {
     .container {
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
+    nav {
+      padding: 10px 0;
+    }
+    .explorecont {
+      width: 100%;
+      margin: 0;
+      max-width: none;
+    }
+    .buyAnyBoxes {
+      margin: 0;
+      max-width: none;
+    }
   }
   @media (max-width: 480px) {
     .container {
